@@ -1,0 +1,176 @@
+*{
+    font-family: "Poppins", sans-serif;
+    
+}
+
+body{
+    background-color: #272b33;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    background-image: url(assets/rick-and-morty-banner.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1{
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 5px;
+}
+
+p{
+    text-align: center;
+    color: aliceblue;
+    width: 260px;
+    text-align: justify;
+    font-size: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+
+    a{
+        color: #57f70a;
+        text-decoration: none;
+    }
+}
+
+.errorvalue{
+    text-align: center;
+    color: aliceblue;
+    width: 260px;
+    text-align: center;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 67, 67);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.search{
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    color: #272b33;
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 35px;
+    align-items: center;
+    border-radius: 25px;
+    
+    i{
+        justify-self: flex-start;
+        padding-left: 5px;
+    }
+
+    form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        input{
+            background-color: aliceblue;
+            border-style: none;
+            width: auto;
+            height: 20px;
+            padding-left: 5px;
+        }
+
+        .button_button{
+            background-color: #272b33;
+            color: aliceblue;
+            border-top-left-radius: 0px;
+            border-bottom-left-radius: 0px;
+            border-top-right-radius: 25px;
+            border-bottom-right-radius: 25px;
+            border-style: none;
+            height: 35px;
+            border-style: solid;
+            border-color: aliceblue;
+            border-width: 1px;
+
+            &&:hover{
+                background-color: #57f70a;
+                color: #272b33;
+            }
+        }
+        
+    }
+}
+
+.location{
+    background-color: #2b2d32;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    color: aliceblue;
+    margin-top: 10px;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: #555555; */
+
+    h2{
+        margin: 0;
+        color: #57f70a;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    ul{
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+
+        li{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 15px;
+            margin-left:10px;
+            margin-right: 10px;
+
+            span{
+                text-align: center;
+            }
+        }
+    }
+}
+
+.contentP{
+    /* background-color: #57f70a; */
+}
+
+
+
+::-webkit-scrollbar {
+    width: 10px; /* Ancho de la barra de desplazamiento */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #272b33; /* Color de fondo de la pista */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #57f70a; /* Color del thumb (el deslizador) */
+    border-radius: 5px; /* Borde redondeado del thumb */
+  }
