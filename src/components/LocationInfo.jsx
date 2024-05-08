@@ -1,4 +1,4 @@
-import '../App.css'
+import '../components/LocationInfo.css'
 
 const LocationInfo = ({locationData}) => {
     console.log(locationData)

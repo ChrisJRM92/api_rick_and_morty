@@ -1,0 +1,41 @@
+.location{
+    background-color: #2b2d32;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    color: aliceblue;
+    margin-top: 10px;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+    h2{
+        margin: 0;
+        color: #57f70a;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    ul{
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+
+        li{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 15px;
+            margin-left:10px;
+            margin-right: 10px;
+
+            span{
+                text-align: center;
+            }
+        }
+    }
+}
