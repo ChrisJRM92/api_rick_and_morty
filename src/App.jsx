@@ -31,14 +31,14 @@ function App() {
       {/* Menu */}
       <div class="menu">
         <div class="menu_logo" href='index.html'>
-          <a href="index.html"><img src="/src/assets/logo.png" alt="" /></a>
+          <a href="index.html"><img src="src/assets/logo.png" alt="" /></a>
         </div>
         <div class="menu_options">
             <div class="menu_menu">
               <a href="https://rickandmortyapi.com/" target="_blank">Doc API</a>
               <div className="author">
                 <a href="https://christianromero.netlify.app/#home" target="_post">Christian R |&nbsp;</a>
-                <img src="/src/assets/profile1.png" alt="" />
+                <img src="src/assets/profile1.png" alt="" />
               </div>
             </div>
             <div class="menu_hamburger"></div>
